@@ -10,12 +10,12 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Console.Write("Первое число: ");
-            int a =int.Parse( Console.ReadLine());
+            double a =double.Parse( Console.ReadLine());
             Console.Write(" Второе число : ");
-            int b = int.Parse(Console.ReadLine());
+            double  b = double.Parse(Console.ReadLine());
             Console.Write("Результат ="+Sum(a, b));
         }
-        public static int Sum(int a, int b)
+        public static double Sum(double a, double b)
         {
             return (a + b);
         }
